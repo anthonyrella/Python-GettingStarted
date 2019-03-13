@@ -1,6 +1,11 @@
 from flask import Flask, render_template, redirect, url_for, request
 
-from student import Student
+import sys
+
+sys.path.append(".")
+
+from PluralsightCourse.student import Student
+
 
 students = []
 
